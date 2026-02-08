@@ -1,23 +1,29 @@
-# Classic-Board-Game-Simulation
+Classic Board Game Simulation
+A classic board game simulation implemented in C, focusing on systems programming fundamentals, memory management, and command-line execution.
 Overview
-This project is a C-based systems programming assignment focused on low-level programming concepts such as memory management, compilation, and command-line execution. The goal of the project was to design and implement a correct, well-structured C program that builds using a Makefile and follows systems programming conventions.
+This project is a terminal-based classic board game simulation written in C. The program emphasizes low-level programming concepts such as memory allocation, structured program design, and compilation using a Makefile. The game logic is executed entirely through the command line.
 Features
-Implemented core functionality in C using structured, readable code
-Built and managed the project using a custom Makefile
-Demonstrated understanding of compilation, linking, and execution
-Practiced debugging and validating program output via terminal runs
+Classic board game mechanics implemented in C
+Dynamic memory allocation and pointer usage
+Command-line based gameplay
+Build automation using a Makefile
+Clear separation of game logic and utility functions
+How the Program Works
+The program simulates a board-based game using C:
+The game board is created and managed using dynamic memory
+Game state is updated based on player actions
+Memory is allocated and freed appropriately to avoid leaks
+The program is compiled using GCC via a Makefile and run from the terminal
 Technologies Used
-Language: C
-Build Tools: Make / GCC
-Environment: Unix/Linux command line
-Project Structure
-.
-p2_qyousaf_206.c   # Main C source file
- Makefile          # Build automation
-How to Build and Run
+C
+GCC
+Make
+Unix/Linux Command Line
+Dynamic Memory Management
+How to Run
 To compile the project:
 make
 To run the program:
-./<executable-name>
-(To clean build artifacts:)
+./executable_name
+To clean build files:
 make clean
