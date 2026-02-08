@@ -12,8 +12,8 @@ Build Tools: Make / GCC
 Environment: Unix/Linux command line
 Project Structure
 .
-├── p2_qyousaf_206.c   # Main C source file
-├── Makefile          # Build automation
+p2_qyousaf_206.c   # Main C source file
+ Makefile          # Build automation
 How to Build and Run
 To compile the project:
 make
